@@ -1,3 +1,8 @@
+# App
+logs/
+api/import/*
+!api/import/test.xlsx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
