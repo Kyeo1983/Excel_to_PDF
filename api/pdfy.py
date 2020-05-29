@@ -44,6 +44,8 @@ def transform_to_pdf(file_path, sheet):
         book.api.ExportAsFixedFormat(0, dist_path)
         logger.info('> transform_to_pdf > succeed output file = {}'.format(dist_path))
 
+        book.close()
+        logger.info('> transform_to_pdf > closed book {}'.format(file_path))
     except:
         logger.exception(">transform_to_pdf > error encountered")
 
