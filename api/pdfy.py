@@ -45,6 +45,9 @@ def transform_to_pdf(file_path, sheet):
         logger.info('> transform_to_pdf > succeed output file = {}'.format(dist_path))
 
         book.close()
+        for a in xw.apps:
+               a.quit()
+               a.kill()
         logger.info('> transform_to_pdf > closed book {}'.format(file_path))
     except:
         logger.exception(">transform_to_pdf > error encountered")
