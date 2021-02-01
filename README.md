@@ -11,6 +11,10 @@ python run_app.py
 Only works on Windows machine and Excel must be installed.  
 Change path in _api/config.py_ file to point to the _import_ folder.
 
+# Donation Button
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=kyeoses%40gmail%2ecom&lc=SG&item_name=Donate&amount=0%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted)
+
+
 ## Notes when running on Server
 Server must have Excel installed.  
 When running program on server, it will still work while running _run_app.py_ locally.  
